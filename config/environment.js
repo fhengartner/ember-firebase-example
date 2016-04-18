@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ember-firebase-example',
+    podModulePrefix: 'ember-firebase-example/pods',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
     firebase: 'https://glowing-fire-5225.firebaseio.com/',
