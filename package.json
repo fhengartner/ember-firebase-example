@@ -1,7 +1,7 @@
 {
-  "name": "ember-signup-example",
+  "name": "ember-firebase-example",
   "version": "0.0.0",
-  "description": "Small description for ember-signup-example goes here",
+  "description": "Firebase example",
   "private": true,
   "directories": {
     "doc": "doc",
