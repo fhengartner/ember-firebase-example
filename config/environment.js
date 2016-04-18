@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'ember-signup-example',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    firebase: 'https://glowing-fire-5225.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
