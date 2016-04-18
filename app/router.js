@@ -9,6 +9,10 @@ Router.map(function() {
   this.route('user', function() {
     this.route('signup');
   });
+
+  this.route('session', function() {
+    this.route('new');
+  });
 });
 
 export default Router;
