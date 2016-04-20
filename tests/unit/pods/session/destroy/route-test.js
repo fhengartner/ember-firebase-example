@@ -6,6 +6,6 @@ moduleFor('route:session/destroy', 'Unit | Route | session/destroy', {
 });
 
 test('it exists', function(assert) {
-  const route = this.subject();
-  assert.ok(route);
+  const sut = this.subject();
+  assert.ok(sut);
 });
