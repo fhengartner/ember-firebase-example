@@ -1,3 +1,11 @@
 {
-  "extends": "ember"
+  "extends": "ember",
+  "rules": {
+    "no-trailing-spaces": "off",
+    arrow-spacing: ["error", { "before": true, "after": true }],
+    "arrow-body-style": ["error", "as-needed"],
+    "object-curly-spacing": ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
+    "newline-after-var": "off",
+  }
 }

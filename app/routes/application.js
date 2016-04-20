@@ -1,13 +1,12 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({  
+export default Ember.Route.extend({
   beforeModel() {
     if (this.get('session').get('isAuthenticated')) {
-        return;
+      return;
     }
-      
-    this.get('session').fetch().catch((error) => {
-      Ember.Logger.error('failed to fetch session:', error);
-    });
+
+    this.get('session').fetch()
+      .catch(error => Ember.Logger.error('failed to fetch session:', error));
   }
 });

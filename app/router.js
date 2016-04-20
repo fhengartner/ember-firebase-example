@@ -5,7 +5,7 @@ const Router = Ember.Router.extend({
   location: config.locationType
 });
 
-Router.map(function() {
+Router.map(function() { // eslint-disable-line array-callback-return
   this.route('user', function() {
     this.route('signup');
   });
